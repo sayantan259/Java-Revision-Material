@@ -21,5 +21,8 @@ class Basics{
         byte b = (byte) a; // Performs modulo operation on the number dividing by the range
         System.out.println("Value after type casting : " + b);
         // When conversion is done explicitly then it is called casting
+
+        // Operators, Switch-case, If-Else and Loops works the same way as c++ but here only
+        // true/false works for conditions to work, if(1)/while(1) will throw error here.
     }
 }
