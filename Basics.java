@@ -24,5 +24,20 @@ class Basics{
 
         // Operators, Switch-case, If-Else and Loops works the same way as c++ but here only
         // true/false works for conditions to work, if(1)/while(1) will throw error here.
+
+        // Jagged Array : When the no of cols are inconsistent among rows
+
+        int arr[][] = new int[3][];
+        arr[0] = new int[3];
+        arr[1] = new int[2];
+        arr[2] = new int[4];
+
+        for(int n[]: arr){
+            for(int m:n){
+                m = (int)(Math.random() * 100);
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
     }
 }
